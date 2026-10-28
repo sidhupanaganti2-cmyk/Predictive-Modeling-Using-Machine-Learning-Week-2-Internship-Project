@@ -83,7 +83,7 @@ Week 2 Internship/
 
 ```bash
 git clone https://github.com/sidhupanaganti2-cmyk/Predictive-Modeling-Using-Machine-Learning-Week-2-Internship-Project.git
-cd sidhupanaganti2-cmyk
+cd Predictive-Modeling-Using-Machine-Learning-Week-2-Internship-Project
 ```
 
 ### 2. Create a virtual environment
