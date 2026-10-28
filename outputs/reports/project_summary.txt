@@ -1,0 +1,47 @@
+WEEK 2: PREDICTIVE MODELING USING MACHINE LEARNING
+==================================================
+
+Dataset:
+Breast Cancer Wisconsin Diagnostic dataset
+Source: Scikit-learn built-in educational dataset
+
+Dataset records: 569
+Number of features: 30
+
+Target labels:
+0 = Benign
+1 = Malignant
+
+Models evaluated:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Best model by ROC AUC on the held-out test set:
+Random Forest
+
+Test-set performance of selected model:
+Accuracy:  0.9737
+Precision: 1.0000
+Recall:    0.9286
+F1 Score:  0.9630
+ROC AUC:   0.9977
+
+INTERPRETATION
+--------------
+Accuracy measures the fraction of correct predictions.
+Precision measures how many predicted positive cases were positive.
+Recall measures how many actual positive cases were identified.
+F1 Score balances precision and recall.
+ROC AUC measures how well the model ranks positive cases above
+negative cases across classification thresholds.
+
+IMPORTANT LIMITATIONS
+---------------------
+This is an educational experiment, not a medical diagnostic tool.
+Results depend on the selected dataset and train-test split.
+Model selection uses a single held-out test set and is exploratory.
+No model should be considered clinically validated based on this
+project. Clinical use requires appropriate expert validation.
+
+The selected model is chosen by ROC AUC, not accuracy alone.
